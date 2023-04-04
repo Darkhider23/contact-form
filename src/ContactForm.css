@@ -1,0 +1,36 @@
+body {
+    background-color: #444442;
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+    width:80%;
+}
+form{
+    width:80%;
+}
+.form-elements{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.form-elements:nth-child(odd){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form label{
+    font-size:1.5rem;
+    font-style: italic;
+}
+input, textarea, button{
+    padding: 30px;
+    width: 30rem;
+    border: 0;
+    font-size: 1rem;
+    background-color: #2d2d2d;
+    color: white;
+    border-radius:20px;
+}
